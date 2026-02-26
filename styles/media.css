@@ -1,3 +1,53 @@
 @media screen and (max-width: 1024px) {
 
 }
+
+@media screen and (max-width: 768px) {
+    .open {
+        margin-top: 50px;
+    }
+    .main {
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-info, .main-functions {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-info {
+        flex-direction: column;
+    }
+    .main-info .name, .main-info .name-value, .main-info .budget,
+    .main-info .budget-value, .main-info .goods, .main-info .goods-value,
+    .main-info .items, .main-info .items-value, .main-info .employers,
+    .main-info .employers-value, .main-info .discount, .main-info .discount-value,
+    .main-info .isopen, .main-info .isopen-value {
+        width: 100%;
+    }
+
+    .main-functions__wrapper_flex {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .main-functions .goods-item, .main-functions .hire-employers-item,
+    .main-functions .time-value, .main-functions .choose-item,
+    .main-functions .count-budget-value {
+        width: 100%;
+    }
+
+    .main-functions .count-budget-value {
+        margin: 0;
+    }
+
+    .main-functions button {
+        width: 127px;
+        margin: 0 auto;
+    }
+}
