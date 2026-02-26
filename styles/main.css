@@ -1,6 +1,14 @@
 /*переменные*/
 :root {
-    
+    --bg-color: #EFE9D7;
+    --accent-color: #7D2826;
+    --blocks-bg-color: #898861;
+    --dark-green-color: #343723;
+
+    --light-text-color: #EFE9D7;
+    --dark-text-color: #222513;
+
+    --hover-transition: all 0.3s ease;
 }
 /* .. переменные*/
 
@@ -12,6 +20,15 @@
 }
 
 body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: var(--bg-color);
+}
 
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 /* .. общие настройки*/

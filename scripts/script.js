@@ -1,1 +1,1 @@
-// alert("Hello, JavaScript");
+"use strict";
