@@ -96,7 +96,7 @@ productsInput.addEventListener('change', () => {
         productsArray = items.split(", ");
         productsArray.sort();
 
-        productsNamesField[0].textContent = productsArray;
+        productsNamesField[0].textContent = productsArray.join(", ");
     }
 });
 

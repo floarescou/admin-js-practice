@@ -188,7 +188,8 @@ body {
 }
 
 .main-functions .choose-item, .main-functions .time-value, .main-functions .count-budget-value {
-    width: 70%;
+    width: 80%;
+    padding: 0 7px;
 }
 
 .main-functions .time-value {
