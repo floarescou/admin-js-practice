@@ -139,6 +139,7 @@ body {
 
 .main-info .isopen-value, .main-info .discount-value {
     background-color: var(--accent-color);
+    color: var(--light-text-color);
 }
 
 .main-functions {
